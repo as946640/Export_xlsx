@@ -17,7 +17,7 @@
 ---|------|------|---
 open | false | Boolean | 导出弹窗显示
 Params | {pageNum:1, pageSize: 10} | Object | 列表数据条件查询，具体参数看自己后端
-fieldTranslate | [{key:'merID',contText:{1:'翻译1',2: '翻译2'}},] | Object | 字段翻译配置
+fieldTranslate | [{key:'merID',contText:{1:'翻译1',2: '翻译2'}},] | Array | 字段翻译配置
 exportData | 具体参数看下面 | Object | 表格配置
 extraKey | [{name: "表头", key: key}] | Array |exportData配置: 列表额外字段导出 key => 字段
 filename | "Xlsx导出" | String | exportData配置:表格名称
